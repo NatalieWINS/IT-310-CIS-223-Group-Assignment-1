@@ -1,0 +1,16 @@
+n = people in room
+i = instance
+trueCount = number of instances (for each n) where there was a match
+
+trueCountArray[]
+
+for(n = 5; n <= 50; n++){
+	trueCount = 0;
+	for(i = 0; i < 1000; i++){
+		function makeList(n) \\Make list of random numbers 0-364 with n members
+		function compare values in list \\If *any* matches, increment trueCount & end function
+	}
+	trueCountArray.append(trueCount)
+}
+
+print array in a fancy, clean fashion
