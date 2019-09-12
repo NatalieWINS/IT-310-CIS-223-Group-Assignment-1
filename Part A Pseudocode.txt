@@ -14,3 +14,4 @@ for(n = 5; n <= 50; n++){
 }
 
 print array in a fancy, clean fashion
+print probability
