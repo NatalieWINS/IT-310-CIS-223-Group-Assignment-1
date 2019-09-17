@@ -14,6 +14,8 @@ If not, error
 
 3. Check each side for the above conditions
 If false, error
+3.1 If triangle, check triangle inequality thm (s,1 < s,2 + s,3 ; s,2 < s,1 + s,3 ; s,3 < s,1 + s,2)
+If false, error
 
 4. Sum up the provided angles and compare it to the total angles for that polygon type
 (180 degrees for triangles, 360 for quadrilaterals, etc)
