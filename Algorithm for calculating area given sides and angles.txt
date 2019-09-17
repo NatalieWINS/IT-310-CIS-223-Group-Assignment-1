@@ -1,0 +1,11 @@
+Given n sides and n angles, where angle a1 is formed by sides n1 and n2
+
+Use SAS (Side-Angle-Side) to find the diagonals d1 ... dn-2
+
+Use SSS to find the next angle
+
+Simultaneously, calculate the area for efficiency's sake
+
+If sn == dn-2, the polygon is valid
+
+Return true and area
