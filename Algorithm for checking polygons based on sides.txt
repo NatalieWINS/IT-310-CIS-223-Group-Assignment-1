@@ -1,0 +1,22 @@
+For each positive side s,i (s,1 , s,2 , s,3 , ... , s,n) where n = number of sides
+
+s,i <= 1/2 * (s,1 + s,2 + s,3 + ... + s,n)
+             (The Perimeter)
+
+if ==, it is degenerate, meaning some of the sides overlap each other
+
+Process:
+
+1. verify each input is a positive number
+If not, error
+
+2. Calculate perimeter
+
+3. Check each side for the above conditions
+If false, error
+
+4. Sum up the provided angles and compare it to the total angles for that polygon type
+(180 degrees for triangles, 360 for quadrilaterals, etc)
+If !=, error
+
+Return true for isPolygon
