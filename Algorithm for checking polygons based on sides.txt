@@ -20,5 +20,6 @@ If false, error
 4. Sum up the provided angles and compare it to the total angles for that polygon type
 (180 degrees for triangles, 360 for quadrilaterals, etc)
 If !=, error
+4.1 Test if angles paired with sides make a closed polygon (also calculate Area)
 
 Return true for isPolygon
