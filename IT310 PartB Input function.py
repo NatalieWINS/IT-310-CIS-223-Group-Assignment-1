@@ -53,7 +53,6 @@ def testPoly(sides, angles, SideNum):
         currentAngle = angles[i + 1] - nextAngle
         currentSide = missingSide
         i = i + 1
-    print(missingSide)
     if (currentSide >= sides[SideNum - 1] + SideNum) or (currentSide <= sides[SideNum - 1] - SideNum):  # Check for if polygon is closed after previous test, with a threshold for error
         return False
     print('Perimeter:',Perimeter)
