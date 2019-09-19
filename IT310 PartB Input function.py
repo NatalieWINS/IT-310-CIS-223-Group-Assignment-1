@@ -72,7 +72,7 @@ SideNum = len(sides)
 while 1:
     if SideNum == len(angles):
         break
-    angle = input('Enter an angle in order (angle 1 between sides 1 and 2) in degrees: ')
+    angle = input('Enter an angle in order (angle 1 formed by sides 1 and 2) in degrees: ')
     if angle == '':
         break
     angles.append(int(angle))
