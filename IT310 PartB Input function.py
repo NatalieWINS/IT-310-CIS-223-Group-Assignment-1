@@ -55,7 +55,7 @@ def testPoly(sides, angles, SideNum):
         i = i + 1
     if (currentSide >= sides[SideNum - 1] + SideNum) or (currentSide <= sides[SideNum - 1] - SideNum):  # Check for if polygon is closed after previous test, with a threshold for error
         return False
-    print('Entered dimensions (sides, angles):',sides,angles,SideNum)
+    print('Entered dimensions (sides, angles):',sides,angles)
     print('Perimeter:',Perimeter)
     print('Approximate Area:',Area)
     return True
@@ -80,5 +80,5 @@ while 1:
 print(sides,angles,SideNum)
 isValidPolygon = testPoly(sides,angles,SideNum)
 if isValidPolygon != True:
-    print('Entered dimensions (sides, angles):',sides,angles,SideNum)
+    print('Entered dimensions (sides, angles):',sides,angles)
     print('Please enter a valid Polygon.')
